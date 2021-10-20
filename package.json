@@ -4,8 +4,13 @@
   "description": "Climate change API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "Oruko Pius",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  }
 }
